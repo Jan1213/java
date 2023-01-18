@@ -3,7 +3,7 @@ public class FizzBuzz{
        if(args.length == 0){
         return;
         }
-        int max = integer.parseint(args[0]);
+        int max = Integer.parseInt(args[0]);
         String result = null;
         for (int i = 0;i < max; i++){
             int num = i + 1;
