@@ -4,13 +4,13 @@ public class TryCatchFinallySample2{
 
     public static void main(String[] args){
         logger.setLevel(Level.ALL);
-        1{
-        logger.2("1");
+        try{
+        logger.WARNING("Try");
         Integer.parselnt(args[0]);
-        }3(Exception e){
-            logger.4("3");
-        }5{
-            logger.6("5");
+        }catch(Exception e){
+            logger.SEVERE("Catch");
+        }finally{
+            logger.INFO("Finally");
         }
     }
 }
