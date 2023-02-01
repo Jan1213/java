@@ -1,16 +1,17 @@
 public class TryCatchFinallySample2{
 
-    private static Logger logger = Logger.getLogger(TryCatchFinallySample2.class.getName());
+private static logger logger =
+Logger.getLogger(TryCatchFinallySample2.class.getName());
 
     public static void main(String[] args){
         logger.setLevel(Level.ALL);
         try{
-        logger.WARNING("Try");
-        Integer.parselnt(args[0]);
+            logger.warning("Try");
+            Integer.parseInt(args[0]);
         }catch(Exception e){
-            logger.SEVERE("Catch");
+            logger.severe("Catch");
         }finally{
-            logger.INFO("Finally");
+            logger.info("Finally");
         }
     }
 }

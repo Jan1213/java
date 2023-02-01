@@ -7,7 +7,7 @@ public class TryCatchFinallySample{
         }catch(Exception e) {
             System.out.println("catch");
         }finally{
-            System.out.println("finally")
+            System.out.println("finally");
         }
     }
 }
